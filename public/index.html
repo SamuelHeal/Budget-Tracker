@@ -13,11 +13,11 @@
   <title>Budget Tracker</title>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
-    </div>
 
+  <header>
+    <h1>Budget Tracker</h1>
+  </header>
+  <div class="wrapper">
     <div class="form">
       <input type="text" id="t-name" placeholder="Name of transaction" />
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
@@ -37,6 +37,11 @@
         </tbody>
       </table>
     </div>
+    <div class="total">
+      <div class="total">Your total is: $<span id="total">0</span></div>
+    </div>
+
+    
     
     <canvas id="myChart"></canvas>
   </div>
