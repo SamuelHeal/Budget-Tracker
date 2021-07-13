@@ -71,7 +71,7 @@ function populateChart() {
         datasets: [{
             label: "Total Spent",
             fill: true,
-            backgroundColor: "#05386B",
+            backgroundColor: "#C3073F",
             data
         }]
     }
